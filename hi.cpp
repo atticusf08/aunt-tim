@@ -3,9 +3,12 @@
 #include <cmath>
 #include <iomanip>
 
+using namespace std;
+
 int main()
 {
-    std::cout << "test to see if my github repository, musical-octo-garbanzo, is working";
+    cout << setw(10) << "test to see if my github repository, musical-octo-garbanzo, is working";
+    cout << setw(10) << "Hi";
 
     return 0;
 }
